@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Bootcamp-DIO-XP-Inc")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+595851dd15e6001b5f7306fe9db20f5408a57a3f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+33faa87c857f44d12a956d05b883590c880973e0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Bootcamp-DIO-XP-Inc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Bootcamp-DIO-XP-Inc")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
