@@ -1,5 +1,3 @@
-using System.ComponentModel.DataAnnotations;
-
 namespace Bootcamp_DIO_XP_Inc.Models
 {
 
@@ -15,5 +13,4 @@ namespace Bootcamp_DIO_XP_Inc.Models
             Console.WriteLine($"Olá, meu nome é {Nome}, \n e tenho {Idade} anos.");
         }
     }
-
 }

@@ -37,6 +37,33 @@ public class SintaxeETiposDeDados
 *       - É recomendável também que, o nome do arquivo físico seja o mesmo da classe.
 *       - É Recomendável também, não utilizar caracteres especiais nas variáveis. Exceto o underline (_).
 *   
+*******************************************************************************************************************************************************************************
+*                       TIPOS DE DADOS  
+*   string: Uma cadeia de caracteres
+*   char: Um caracter unicode
+*   object: Tipo de objeto
+*   bool: Um tipo booleano, representado por Verdadeiro (true) ou Falso (false).
+*   byte: Int não atribuído de 8-bits.
+*   decimal: Valores decimais com 28-29 dígitos significativos.
+*   double: Tipo de ponto flutuante de precisão dupla de 64 bits.
+*   int: Tipo inteiro com sinal de 32 bits.
+*   float: Tipo de ponto flutuante com precisão simples de 32 bits.
+*   long: Tipo inteiro com sinal de 64 bits.
+*   uint: Tipo inteiro sem sinal de 32 bits. (Sem números negativos, dobra valores positivos)
+*   short: Tipo inteiro com sinal de 16 bits.
+*   ulong: Tipo inteiro sem sinal de 64 bits. (Sem números negativos, dobra valores positivos)
+*   
+*   
+*   Não é permitido declarar uma mesma variável duas vezes no mesmo escopo. O escopo é definido entre as chaves "{}".
+*   
+*   O DateTime é uma maneira de representar datas no C#. Ela representa data e hora, com milissegundos.
+*   
+*   
+*   
+*   
+*   
+*   
+*   
 *   
 *   
 *   
