@@ -1,4 +1,6 @@
-﻿using Bootcamp_DIO_XP_Inc.Models;
+﻿using System.Numerics;
+using Bootcamp_DIO_XP_Inc.conteudo.SintaxeBasica;
+using Bootcamp_DIO_XP_Inc.Models;
 
 
 /********************************************************************************/
@@ -38,3 +40,6 @@ Console.WriteLine("Valor da variável condição: " + condicao);
 
 DateTime dataAtual = DateTime.Now.AddDays(4);
 Console.WriteLine(dataAtual.ToString("dd/MM/yyyy"));
+
+TiposDeOperadores.Operators();
+TiposDeOperadores.ConditionalOperators();

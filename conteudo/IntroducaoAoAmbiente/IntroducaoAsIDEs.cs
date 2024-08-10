@@ -4,7 +4,8 @@ public class IntroducaoAsIDEs
 {
     /*  
     *   O que é uma IDE?
-    *       Uma IDE (Integrated Development Environment), ou ambiente de desenvolvimento integrado, é um software que facilita e integra diversas facilidades para a escrita e depuração de um software
+    *       Uma IDE (Integrated Development Environment), ou ambiente de desenvolvimento integrado, é um software que facilita e integra diversas facilidades para a escrita e 
+    *   depuração de um software
     *   
     *   Visual Studio
     *       É a principal IDE para o .NET, com suporte para o C#, C++, Python, Node.js, Unity e mobile.

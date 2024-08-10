@@ -23,7 +23,8 @@ public class IntroducaoAoNet
     *       - F#
     *       - Visual Basic
     *    
-    *    C# é uma linguagem de programação moderna, segura e orientada a objetos que abrange desde recursos de alto nível, como registros orientados a dados, até recursos de baixo nível, como ponteiros de função.
+    *    C# é uma linguagem de programação moderna, segura e orientada a objetos que abrange desde recursos de alto nível, como registros orientados a dados, até recursos de 
+    *   baixo nível, como ponteiros de função.
     *    
     *    O .NET é compatível com os sistemas operacionais Android, Apple, Linux e Windows. Está disponível em várias distribuições Linux, como Red Hat Enterprise Linux e Ubuntu.
     *    Já o .NET Framework não é multiplataforma
@@ -36,7 +37,8 @@ public class IntroducaoAoNet
     *    HISTÓRIA DO .NET
     *       A Microsoft começou a trabalhar no C# no final dos anos 90, tendo sua primeira versão do framework em 2002, tendo como objetivo competir com o Java. 
     *       O conceito de multiplataforma era estrondoso na época, e a Microsoft trabalhou em melhorias e implementações do Java em sua plataforma, mas foi impedida pela Sun.
-    *       Isso motivou a Microsoft a desenvolver um ecossistema integrado ao Windows, ue fosse fácil para desenvolver aplicativos desktop e web, e que fosse amarrado apenas ao Windows, aumentando assim a sua relevância
+    *       Isso motivou a Microsoft a desenvolver um ecossistema integrado ao Windows, ue fosse fácil para desenvolver aplicativos desktop e web, e que fosse amarrado apenas 
+    *       ao Windows, aumentando assim a sua relevância
     *    
     *    .NET FRAMEWORK (Legado) e.NET
     *       O .NET Framework só funciona no Windows, já o .NET (ou .NET Core), é a versão atual, e multiplataforma.
