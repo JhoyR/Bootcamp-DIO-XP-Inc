@@ -157,14 +157,109 @@ namespace Bootcamp_DIO_XP_Inc.conteudo.SintaxeBasica
                 Console.WriteLine("True");
             }
 
-            bool choveu= false;
+            bool choveu = false;
             bool estaTarde = false;
 
-            if(choveu && estaTarde){
+            if (choveu && estaTarde)
+            {
                 Console.WriteLine("Deixa pra próxima");
             }
-            else{
+            else
+            {
                 Console.WriteLine("É hoje!");
+            }
+        }
+
+        public static void ArithmeticOperators()
+        {
+            /*
+            *   Soma: +
+            *   Subtração: -
+            *   Multiplicação: *
+            *   Divisão: / (representa a parte inteira, ou double)
+            *   Módulo: % (resto da divisão)
+            *   Incremento: ++ (aumenta o valor em 1. x = x + 1)
+            *   Decremento: -- (diminui o valor em 1. x = x - 1)
+            */
+            Somar(8, 4);
+            Subtrair(8, 4);
+            Multiplicar(8, 4);
+            Dividir(8, 4);
+            Incremento();
+            Decremento();
+            Potencia(2, 3);
+            RaizQuadrada(16);
+
+            static void Somar(int x, int y)
+            {
+                Console.WriteLine($"{x} + {y} = {x + y}");
+            }
+
+            static void Subtrair(int x, int y)
+            {
+                Console.WriteLine($"{x} - {y} = {x - y}");
+            }
+
+            static void Multiplicar(int x, int y)
+            {
+                Console.WriteLine($"{x} x {y} = {x * y}");
+            }
+
+            static void Dividir(int x, int y)
+            {
+                Console.WriteLine($"{x} / {y} = {x / y}");
+            }
+
+            static void Incremento()
+            {
+                for (int i = 0; i < 3; i++)
+                {
+                    Console.WriteLine($"Incremento, i = {i}");
+                }
+            }
+
+            static void Decremento()
+            {
+                for (int i = 5; i > 3; i--)
+                {
+                    Console.WriteLine($"Decremento, i = {i}");
+                }
+            }
+
+            void Potencia(int x, int y)
+            {
+                double pot = Math.Pow(x, y);
+                Console.WriteLine($"{x} ^ {y} = {pot}");
+            }
+
+            void RaizQuadrada(double x){
+                double raiz = Math.Sqrt(x);
+                Console.WriteLine($"Raiz quadrada de {x} = {raiz}");
+            }
+        }
+
+        public static void TrigonometricsOperators()
+        {
+            Seno(30);
+            Cosseno(30);
+            Tangente(30);
+
+            static void Seno(double angulo){
+                double radiano = angulo * Math.PI / 180; // É igual a: angulo * (Math.PI / 180)
+                double seno = Math.Sin(radiano); //Recebe um ângulo em radianos
+                Console.WriteLine($"Seno de {angulo}° = {Math.Round(seno, 4)}"); //Arredonda o valor da variável para o 
+            }
+
+            static void Cosseno(double angulo){
+                double radiano = angulo * Math.PI / 180;
+                double cosseno = Math.Cos(radiano);
+                Console.WriteLine($"Cosseno de {angulo}° = {Math.Round(cosseno, 4)}");
+            }
+
+            static void Tangente(double angulo){
+                double radiano = angulo * Math.PI / 180;
+                double tangente = Math.Tan(radiano);
+                Console.WriteLine($"Tangente de {angulo}° = {Math.Round(tangente, 4)}");
             }
         }
     }
