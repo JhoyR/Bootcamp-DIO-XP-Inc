@@ -7,5 +7,6 @@
 // TiposDeOperadores.Operators();
 // TiposDeOperadores.ConditionalOperators();
 // TiposDeOperadores.LogicOperators();
-TiposDeOperadores.ArithmeticOperators();
-TiposDeOperadores.TrigonometricsOperators();
+// TiposDeOperadores.ArithmeticOperators();
+// TiposDeOperadores.TrigonometricsOperators();
+EstruturasDeRepeticao.RepeatLoop();
