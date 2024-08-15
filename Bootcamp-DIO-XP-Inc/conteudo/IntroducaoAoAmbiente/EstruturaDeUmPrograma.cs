@@ -9,10 +9,12 @@ public class EstruturaDeUmPrograma
     *   
     *   Uma solução pode ter mais de um projeto, sendo este, auxiliar.
     *   
+    *   Pode-se ter mais de um projeto na mesma solução
+    *   Separa-se os projetos necessários para a solução em respectivas pastas 
     *   
+    *   Pode-se criar um projeto com versão mais antiga do .net passando a versão desejada
     *   
-    *   
-    *   
+    *   Quando utilizamos mais de um projeto na solução, é necessário referenciar os projetos
     *   
     *   
     */
