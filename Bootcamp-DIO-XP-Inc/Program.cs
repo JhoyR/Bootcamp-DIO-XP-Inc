@@ -1,4 +1,5 @@
 ﻿using Bootcamp.Common.Models;
+using Bootcamp_DIO_XP_Inc.conteudo.PropriedadesMetodosConstrutores;
 using Bootcamp_DIO_XP_Inc.conteudo.SintaxeBasica;
 
 
@@ -10,8 +11,13 @@ using Bootcamp_DIO_XP_Inc.conteudo.SintaxeBasica;
 // TiposDeOperadores.LogicOperators();
 // TiposDeOperadores.ArithmeticOperators();
 // TiposDeOperadores.TrigonometricsOperators();
+
 // EstruturasDeRepeticao.RepeatLoop();
+
 // ArraysEListas.ThroughArray();
 // ArraysEListas.IncreaseSizeArray();
 // ArraysEListas.CopyToNewArray();
-ArraysEListas.UsingLists();
+// ArraysEListas.UsingLists();
+
+PropriedadesMetodosConstrutores.UsingProperties();
+PropriedadesMetodosConstrutores.UsingMethods();
