@@ -23,9 +23,17 @@ namespace Bootcamp.Common.Models
 
         public void ListarAlunos()
         {
-            foreach (Pessoa aluno in Alunos)
-            {
-                Console.WriteLine($"{aluno.NomeCompleto}");
+            // Podemos formatar valores em diversas representações. Essa formatação de valores é conhecida por concatenação ou interpolação.
+            Console.WriteLine($"Alunos do curso: {Nome}");
+            // foreach (Pessoa aluno in Alunos)
+            // {
+            //     Console.WriteLine($"{aluno.NomeCompleto}");
+            // }
+
+            for(int i = 0; i < Alunos.Count; i++){
+                // string texto = "N° " + i + " - " + Alunos[i].NomeCompleto;
+                string texto = $"N° {i + 1} - {Alunos[i].NomeCompleto}";
+                Console.WriteLine(texto);
             }
         }
     }
