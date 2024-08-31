@@ -16,6 +16,13 @@ namespace Bootcamp.Common.Models
             Sobrenome = sobrenome;
         }
 
+        //Inverso do construtor - 'out' é o parâmetro de saída
+        public void Deconstruct(out string nome, out string sobrenome)
+        {
+            nome = Nome;
+            sobrenome = Sobrenome;
+        }
+
 
         // Para gerar uma propriedade mais rapido, inicie digitando 'prop'
         /*   Validações Get e Set  */
