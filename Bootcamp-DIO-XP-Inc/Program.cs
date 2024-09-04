@@ -23,7 +23,9 @@ using Bootcamp_DIO_XP_Inc.conteudo.SintaxeBasica;
 // PropriedadesMetodosConstrutores.UsingProperties();
 // PropriedadesMetodosConstrutores.UsingMethods();
 
- ExcecoesEColecoes.ReadingFile();
+// ExcecoesEColecoes.ReadingFile();
 // ExcecoesEColecoes.UsingQueues();
 // ExcecoesEColecoes.UsingStack();
 // ExcecoesEColecoes.UsingDictionary();
+
+NugetSerializarEAtributos.PraticSerialization();

@@ -44,12 +44,12 @@ public class TuplasTernarioEDesconstrucao
             Console.WriteLine("Não foi possível ler o arquivo.");
         }
 
-        Pessoa p1 = new Pessoa("Leonardo", "Buta"); //Construindo - Passando as variáveis na declaração
+        Pessoa p1 = new Pessoa("Jhoy", "Rodrigues"); //Construindo - Passando as variáveis na declaração
         (string nome, string sobrenome) = p1; //Desconstruindo - Retornando variáveis separadas do objeto (Neste caso, vindas de p1)
 
         Console.WriteLine($"{nome} {sobrenome}");
-
     }
+    
     public (bool Sucesso, string[] Linhas, int QuantidadeLinhas) ReadingFilesTuple(string caminho)
     {
         try

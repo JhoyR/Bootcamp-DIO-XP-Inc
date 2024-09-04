@@ -10,3 +10,15 @@ c:\Users\WINDOWS\Documents\Bootcamp-DIO-XP-Inc\Bootcamp.Common\obj\Debug\net8.0\
 c:\Users\WINDOWS\Documents\Bootcamp-DIO-XP-Inc\Bootcamp.Common\obj\Debug\net8.0\refint\Bootcamp.Common.dll
 c:\Users\WINDOWS\Documents\Bootcamp-DIO-XP-Inc\Bootcamp.Common\obj\Debug\net8.0\Bootcamp.Common.pdb
 c:\Users\WINDOWS\Documents\Bootcamp-DIO-XP-Inc\Bootcamp.Common\obj\Debug\net8.0\ref\Bootcamp.Common.dll
+C:\Users\jhoy.martins\Documents\GitHub\Bootcamp-DIO-XP-Inc\Bootcamp.Common\bin\Debug\net8.0\Bootcamp.Common.deps.json
+C:\Users\jhoy.martins\Documents\GitHub\Bootcamp-DIO-XP-Inc\Bootcamp.Common\bin\Debug\net8.0\Bootcamp.Common.dll
+C:\Users\jhoy.martins\Documents\GitHub\Bootcamp-DIO-XP-Inc\Bootcamp.Common\bin\Debug\net8.0\Bootcamp.Common.pdb
+C:\Users\jhoy.martins\Documents\GitHub\Bootcamp-DIO-XP-Inc\Bootcamp.Common\obj\Debug\net8.0\Bootcamp.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jhoy.martins\Documents\GitHub\Bootcamp-DIO-XP-Inc\Bootcamp.Common\obj\Debug\net8.0\Bootcamp.Common.AssemblyInfoInputs.cache
+C:\Users\jhoy.martins\Documents\GitHub\Bootcamp-DIO-XP-Inc\Bootcamp.Common\obj\Debug\net8.0\Bootcamp.Common.AssemblyInfo.cs
+C:\Users\jhoy.martins\Documents\GitHub\Bootcamp-DIO-XP-Inc\Bootcamp.Common\obj\Debug\net8.0\Bootcamp.Common.csproj.CoreCompileInputs.cache
+C:\Users\jhoy.martins\Documents\GitHub\Bootcamp-DIO-XP-Inc\Bootcamp.Common\obj\Debug\net8.0\Bootcamp.Common.sourcelink.json
+C:\Users\jhoy.martins\Documents\GitHub\Bootcamp-DIO-XP-Inc\Bootcamp.Common\obj\Debug\net8.0\Bootcamp.Common.dll
+C:\Users\jhoy.martins\Documents\GitHub\Bootcamp-DIO-XP-Inc\Bootcamp.Common\obj\Debug\net8.0\refint\Bootcamp.Common.dll
+C:\Users\jhoy.martins\Documents\GitHub\Bootcamp-DIO-XP-Inc\Bootcamp.Common\obj\Debug\net8.0\Bootcamp.Common.pdb
+C:\Users\jhoy.martins\Documents\GitHub\Bootcamp-DIO-XP-Inc\Bootcamp.Common\obj\Debug\net8.0\ref\Bootcamp.Common.dll
