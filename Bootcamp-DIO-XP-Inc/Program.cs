@@ -31,4 +31,6 @@ using Bootcamp_DIO_XP_Inc.conteudo.SintaxeBasica;
 
 // NugetSerializarEAtributos.PraticSerialization();
 
-IntroducaoAbstracaoEncapsulamento.UsingEncapsulation();
+// IntroducaoAbstracaoEncapsulamento.UsingEncapsulation();
+
+HerancaEPolimorfismo.ShowHeritage();

@@ -46,7 +46,7 @@ public class EstruturasDeRepeticao
 
         Console.WriteLine($"Total da soma dos números digitados é: {soma}");
 
-        string? opcao;
+        string opcao;
         bool exibirMenu = true;
 
         while (exibirMenu)

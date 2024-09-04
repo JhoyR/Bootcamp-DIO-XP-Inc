@@ -105,7 +105,7 @@ namespace Bootcamp_DIO_XP_Inc.conteudo.SintaxeBasica
 
             /*SWITCH CASE*/
             Console.Write("Digite uma letra:");
-            string? letra = Console.ReadLine();
+            string letra = Console.ReadLine();
             if (!string.IsNullOrEmpty(letra) && (letra.GetType() == typeof(string)))
             {
                 switch (letra)

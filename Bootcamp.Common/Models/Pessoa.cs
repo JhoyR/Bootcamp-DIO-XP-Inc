@@ -10,10 +10,18 @@ namespace Bootcamp.Common.Models
         {
 
         }
+
         public Pessoa(string nome, string sobrenome)
         {
             Nome = nome;
             Sobrenome = sobrenome;
+        }
+        
+        public Pessoa(string nome, string sobrenome, string email)
+        {
+            Nome = nome;
+            Sobrenome = sobrenome;
+            Email = email;
         }
 
         //Inverso do construtor - 'out' é o parâmetro de saída
@@ -35,7 +43,7 @@ namespace Bootcamp.Common.Models
             /*Flexibilização de Get e Set*/
 
 
-            get => _nome.ToUpper(); /* Body expression */
+            get => _nome;//.ToUpper(); /* Body expression */
 
             set
             {
@@ -49,6 +57,8 @@ namespace Bootcamp.Common.Models
         }
 
         public string Sobrenome { get; set; }
+
+        public string Email { get; set; }
 
         public string NomeCompleto => $"{Nome} {Sobrenome}".ToUpper(); // Pode-se ter so o Get ou só o Set (Este com lógica inclusa)
 
@@ -66,8 +76,8 @@ namespace Bootcamp.Common.Models
             }
         }
 
-
-        public void Apresentar()
+        // Virtual - Informa que o método pode ser sobrescrito
+        public virtual void Apresentar()
         {
             Console.WriteLine($"Olá, meu nome é {Nome} {Sobrenome}, e tenho {Idade} anos.");
             Console.WriteLine($"Olá, meu nome é {NomeCompleto}, \n e tenho {Idade} anos.");
