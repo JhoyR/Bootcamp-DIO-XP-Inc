@@ -13,7 +13,7 @@
     <TargetFramework>net8.0</TargetFramework>
     <RootNamespace>Bootcamp_DIO_XP_Inc</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
+    <Nullable>disable</Nullable>
   </PropertyGroup>
 
 </Project>

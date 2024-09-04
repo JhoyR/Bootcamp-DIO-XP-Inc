@@ -1,5 +1,6 @@
 ﻿using Bootcamp.Common.Models;
 using Bootcamp_DIO_XP_Inc.conteudo.DadosEListas;
+using Bootcamp_DIO_XP_Inc.conteudo.ProgramacaoOrientadaAObjetos;
 using Bootcamp_DIO_XP_Inc.conteudo.PropriedadesMetodosConstrutores;
 using Bootcamp_DIO_XP_Inc.conteudo.SintaxeBasica;
 
@@ -28,4 +29,6 @@ using Bootcamp_DIO_XP_Inc.conteudo.SintaxeBasica;
 // ExcecoesEColecoes.UsingStack();
 // ExcecoesEColecoes.UsingDictionary();
 
-NugetSerializarEAtributos.PraticSerialization();
+// NugetSerializarEAtributos.PraticSerialization();
+
+IntroducaoAbstracaoEncapsulamento.UsingEncapsulation();
