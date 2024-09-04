@@ -33,4 +33,6 @@ using Bootcamp_DIO_XP_Inc.conteudo.SintaxeBasica;
 
 // IntroducaoAbstracaoEncapsulamento.UsingEncapsulation();
 
-HerancaEPolimorfismo.ShowHeritage();
+// HerancaEPolimorfismo.ShowHeritage();
+
+ClassesAbstratasEInterfaces.UsingAbstractMethod();
