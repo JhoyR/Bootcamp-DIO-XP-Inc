@@ -10,13 +10,18 @@ namespace Bootcamp.Common.Models
         {
 
         }
+        
+        public Pessoa(string nome)
+        {
+            Nome = nome;
+        }
 
         public Pessoa(string nome, string sobrenome)
         {
             Nome = nome;
             Sobrenome = sobrenome;
         }
-        
+
         public Pessoa(string nome, string sobrenome, string email)
         {
             Nome = nome;
@@ -36,7 +41,6 @@ namespace Bootcamp.Common.Models
         /*   Validações Get e Set  */
         private string _nome;/*Campo - Nao tem Get e Set*/ /*Encapsulamento*/
         private int _idade;
-
 
         public string Nome /*Propriedade - Tem Get e Set*/
         {

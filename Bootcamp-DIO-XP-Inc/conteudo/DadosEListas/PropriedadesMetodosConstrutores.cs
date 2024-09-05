@@ -12,8 +12,8 @@ public class PropriedadesMetodosConstrutores
 
     public static void UsingProperties()
     {
-        Pessoa pessoa = new Pessoa();
-        pessoa.Nome = "Jhoy";
+        Pessoa pessoa = new Pessoa( "Jhoy");
+        // pessoa.Nome = "Jhoy";
         pessoa.Sobrenome = "Rodrigues";
         pessoa.Idade = 24;
 

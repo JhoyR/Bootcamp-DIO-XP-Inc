@@ -64,7 +64,7 @@ namespace Bootcamp_DIO_XP_Inc.conteudo.IntroducaoAoAmbiente.SintaxeBasica
             {
                     Console.WriteLine("Hello, World!");
 
-                    Pessoa pessoa = new Pessoa
+                    Pessoa pessoa = new Pessoa()
                     {
                             Nome = "Jhoy",
                             Idade = 24
