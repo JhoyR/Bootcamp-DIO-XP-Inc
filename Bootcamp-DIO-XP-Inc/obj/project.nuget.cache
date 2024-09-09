@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "YlgcTZB7+sw=",
+  "dgSpecHash": "3kFXUumGzB8=",
   "success": true,
-  "projectFilePath": "c:\\Users\\jhoy.martins\\Documents\\GitHub\\Bootcamp-DIO-XP-Inc\\Bootcamp-DIO-XP-Inc\\Bootcamp-DIO-XP-Inc.csproj",
+  "projectFilePath": "C:\\Users\\WINDOWS\\Documents\\Bootcamp-DIO-XP-Inc\\Bootcamp-DIO-XP-Inc\\Bootcamp-DIO-XP-Inc.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\jhoy.martins\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\WINDOWS\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }
