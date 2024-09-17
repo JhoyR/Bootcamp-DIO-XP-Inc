@@ -1,0 +1,102 @@
+    OBJETIVOS
+        1 - Entender os fatores que levaram a criação dos bancos NoSQL.
+        2 - Conhecer as principais diferenças gerais entre os BD SQL e NoSQL.
+        3 - Conhecer as características e vantagens do uso do BD NoSQL.
+
+    NoSQL - Not Only SQL
+
+    O BD NoSQL não substitui o BD relacional.
+
+    DIFERENÇAS:
+        - Escalabilidade
+            Banco de dados relacional Vertical:
+                -- Aumento da capacidade para um único recurso.
+                -- Processador, memória e disco rígido
+            
+            Banco de dados relacional Horizontal:
+                -- Replicas de dados APENAS PARA LEITURA.
+            
+            Banco de dados NoSQL Horizontal
+                -- Particionando os dados (sharding) entre os nós é o pais conhecido.
+
+        - Schema: 
+            -- BD Relacional: 
+                Tabelas;
+                Lnhas;
+                Colunas;
+                Chave primária e;
+                Chave estrangeira;
+                Maior consistência dos dados;
+                Maior organização dos daddos.
+
+            -- BD NoSQL: 
+                Schema-free/schemaless; 
+                Sem ou quase sem regras; 
+                Depende dos dados bem modelados;
+                Menos garantia de consistência;
+                Ausência das linguagens de consulta;
+                Formas de consulta diferentes;
+        
+        - Performance:
+            -- BD Relacional:
+                Depende do subsistema de disco para performance. Ex.: HDD
+
+            -- BD NoSQL:
+                Depende do tamanho do seu cluster e do tamanho da rede para uma melhor performance.
+
+        - Transações:
+            -- BD Relacional: (ACID)
+                Atomicidade;
+                Consistência;
+                Isolamento;
+                Durabilidade.
+            
+            -- BD NoSQL: (BaSE)
+                Basically Available;
+                Soft-State;
+                Eventually Consistent.
+
+        - Características e vantagens dos bancos NoSQL:
+            Flexibilidade;
+            Escalabilidade;
+            Alta Performance.
+        
+    Tipos de banco NoSQL
+        - Document Store: Baseados a documentos, ex.: JSON, XML;
+        - Key-Value Store: Muito utilizado na forma de cache;
+        - Wide-Column Store: Orientado a colunas, é o que menos apresenta diferenças dos bancos relacionais;
+        - Graph Store: Muito utilizados em redes sociais e detecção de fraudes.
+
+    
+    Grafos: Comum em detecção de fraudes, mecanismos de recomendação, redes sociais, sistemas de arquivo, games...
+        - Ex.: Neo4j, JanusGraph, TigerGraph.
+        Sandbox: sandbox.neo4j.com
+        Possui linguage própria e específica
+
+    Colunas: Armazenam suas informações exatamente nas suas colunas, de forma independente entre elas.
+        A coluna é constituída de 3 valores: chave, valor e timestamp.
+        As colunas não existem para valores nulos.
+
+        O primeiro banco de dados NoSQL baseado em colunas foi o Cassandra, criado pelo Facebook;
+
+        Terminologias:
+            - Keyspace: agrupamento de familias de colunas => database;
+            - Column Family/table: agrupamento de colunas => table;
+            - Row key: chave que representa uma linha de coluna => Primary Key;
+            - Column: representa um valor contendo: Name, Value, Timestamp.
+
+        O uso ideal dos bancos de dados em colunas é realizar buscas pelas chaves. Pense numa chave que faça sentido de consulta.
+            Ex.: Registro de transações: compras, resultados de testes, filmes assistidos e localização mais recente do filme.
+                 Rastreando praticamente qualquer coisa, incluindo status do edido, pacotes, etc.
+                 
+        A linguagem utilizada no BD Cassandra, CQL é muito parecida com o SQL.
+        
+    Chave-Valor: Armazena um conjunto de dados, seja ele simples ou complexo, identificados por um identificador exclusivo.
+        + Bom desempenho em aplicações na nuvem.
+        - Menor capacidade de busca.
+
+
+
+
+
+

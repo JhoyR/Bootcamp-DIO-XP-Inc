@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Bootcamp.Common
-build_property.ProjectDir = C:\Users\WINDOWS\Documents\Bootcamp-DIO-XP-Inc\Bootcamp.Common\
+build_property.ProjectDir = C:\Users\jhoy.martins\Documents\GitHub\Bootcamp-DIO-XP-Inc\Bootcamp.Common\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
