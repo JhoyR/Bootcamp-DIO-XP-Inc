@@ -1,0 +1,25 @@
+        Introdução ao MongoDB
+
+    Código aberto;
+    Alta performance;
+    Schema-free;
+    Utiliza json para armazenamento dos dados;
+    Suporte a índices;
+    Auto-Sharding (Escalamento Horizontal)
+    Map-Reduce
+    GridFS
+    
+    O document é a menor unidade do MongoDB, sendo este, a referência de uma tupla.
+    Collection é análoga à tabela, scheme-free. 
+    Embedding/linking é semelhante ao join.
+
+
+    Quando usar?
+        É muito indicado quando temos um grande volume de dados, dados não são necessariamente estruturados.
+
+    Quando não usar?
+        - Quando há a necessidade de relacionamentos/joins;
+        - Propriedades ACID e transações são importantes;
+        Curiosidade: Diversar entidades de pagamento não homologam sistemas cujos dados financeiros dos clientes
+        não estejam em banco de dados relacionais tradicionais.
+

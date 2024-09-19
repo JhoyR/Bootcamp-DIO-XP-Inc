@@ -95,6 +95,19 @@
         + Bom desempenho em aplicações na nuvem.
         - Menor capacidade de busca.
 
+        Utilizado em cache, sessão de usuário, carrinhos de compra, etc. Por empresas como twitter, github, stackoverflow, entre outros.
+
+        O principal utilizado é o Redis, seguido do Amazon DynamoDB (multi-model).
+
+        - Alto desempenho;
+        - Estrutura de dados na memória;
+        - Versatilidade de uso;
+        - Replicação e persistência;
+
+        Sandbox: try.redis.io
+
+
+
 
 
 
