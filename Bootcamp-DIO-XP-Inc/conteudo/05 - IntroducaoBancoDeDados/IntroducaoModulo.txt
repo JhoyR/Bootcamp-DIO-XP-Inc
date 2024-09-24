@@ -1,0 +1,45 @@
+    Objetivo Geral
+        Aprender os principais conceitos de banco de dados, SQL, comandos, tratamento e junção de dados, com foco 
+        em desenvolvimento.
+
+
+    Banco de Dados
+        O que é um banco de Dados?
+            Um banco de dados é uma coleção organizada de informações (ou dados) estruturadas, normalmente armazenadas 
+        eletronicamente em um sistema de computador.
+            Possui a capacidade de gravar e obter dados de maneira fácil, crescer dinâmicamente e atender a diversas 
+        requisições dos usuários
+
+    Tipos de banco de dados
+        - Banco de dados relacional: O tipo mais usado atualmente, armazenando dados estruturados, sendo organizado 
+        em tabelas, com colunas e linhas, que se relacionam entre si. Ex.: Sql Server, Oracle Database, MySql.
+            * Tabela: São dados estruturados e organizados logicamente em formato de linha e coluna.
+        
+        
+        - Banco de dados não relacional: Banco de dados onde os dados não são armazenados em tabela, e sim 
+        armazenados de maneira não estruturada ou semi-estruturada. Ex.: mongoDb (document databases).
+            *  Existem vários tipos: document databases, key-value, databases, wide-column stores, e graph databases.
+
+
+    Tipos de dados
+        - Semi-estruturado: Formato json, não-relacional
+        - Estruturado: Tabela Sql, relacional
+
+    Entendendo DBMS
+        Database Management System: É um software utilizado para acessar, manipular e monitorar um sistema de banco de dados.
+    
+
+    A linguagem SQL 
+        SQL (Structured Query Language): É a linguagem de banco de dados usada para consulta e manipulação de dados.
+    
+    Possui os tipos de comandos:
+        - DDL: Data Definition Language (Create, Drop, Alter, Truncate)
+        - DCL: Data Control Language (Grant, Revoke)
+        - DML: Data Manipulation Language (Insert, Update, Delete)
+        - TCl: Transaction Control Language (Commit, Rollback, Save point)
+        - DQL: Data Query Language (Select)
+
+    Entendendo alguns conceitos!
+        Database: É uma coleção de dados estruturados, agrupados de forma concisa. É composto de tabelas, procedures, views, etc.
+        
+

@@ -1,0 +1,24 @@
+Objetivo Geral
+    Aprender e desenvolver uma API, utilizando o Entity Framework para persistência de dados, juntamente com seus principais conceitos e funcionalidades.
+
+
+O que é uma API?
+    Uma API (Application Programming Interface) é uma forma de comunicação entre computadores ou programas de computadores.
+    Em outras palavras, é um software que fornece informações para outro software.
+
+    Entrada -> Processamento -> Retorno -> Saída (Conclusão)
+    
+    Exemplos de API:
+        - Nager.Date: https://date.nager.at (Retorna os feriados dos países)
+        - Dogs: https://dog.ceo/dog-api
+    
+Documentação e retornos
+    Uma documentação informa o que a API faz, que tipo de dado ela retorna e como utilizá-la, com regras, entradas e saídas.
+    
+    Request: É o pedido que um cliente realiza ao servidor, por meio de uma url.
+    Response: É o retorno de uma request, traz as informações solicitadas.
+
+
+Para executar a api sem precisar pausar e rodar novamente, recompilando o projeto, devemos utilizar o comando 'dotnet watch run'.
+
+
