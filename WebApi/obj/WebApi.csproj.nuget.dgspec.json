@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jhoy.martins\\Documents\\GitHub\\Bootcamp-DIO-XP-Inc\\WebApi\\WebApi.csproj": {}
+    "C:\\Users\\WINDOWS\\Documents\\Bootcamp-DIO-XP-Inc\\WebApi\\WebApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jhoy.martins\\Documents\\GitHub\\Bootcamp-DIO-XP-Inc\\WebApi\\WebApi.csproj": {
+    "C:\\Users\\WINDOWS\\Documents\\Bootcamp-DIO-XP-Inc\\WebApi\\WebApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jhoy.martins\\Documents\\GitHub\\Bootcamp-DIO-XP-Inc\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\Users\\WINDOWS\\Documents\\Bootcamp-DIO-XP-Inc\\WebApi\\WebApi.csproj",
         "projectName": "WebApi",
-        "projectPath": "C:\\Users\\jhoy.martins\\Documents\\GitHub\\Bootcamp-DIO-XP-Inc\\WebApi\\WebApi.csproj",
-        "packagesPath": "C:\\Users\\jhoy.martins\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jhoy.martins\\Documents\\GitHub\\Bootcamp-DIO-XP-Inc\\WebApi\\obj\\",
+        "projectPath": "C:\\Users\\WINDOWS\\Documents\\Bootcamp-DIO-XP-Inc\\WebApi\\WebApi.csproj",
+        "packagesPath": "C:\\Users\\WINDOWS\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\WINDOWS\\Documents\\Bootcamp-DIO-XP-Inc\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\jhoy.martins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\WINDOWS\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,7 +26,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -53,6 +52,16 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

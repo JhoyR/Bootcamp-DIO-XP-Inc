@@ -20,5 +20,3 @@ Documentação e retornos
 
 
 Para executar a api sem precisar pausar e rodar novamente, recompilando o projeto, devemos utilizar o comando 'dotnet watch run'.
-
-

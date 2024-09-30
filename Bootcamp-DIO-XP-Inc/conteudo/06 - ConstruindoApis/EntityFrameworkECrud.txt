@@ -1,0 +1,52 @@
+
+    O EF (Entity Framework) é um framework ORM (OBject-Relational Mapping) criado para facilitar a integração com o banco de dados, mapeando tabelas e gerando comandos SQL de forma automática.
+    
+    CAMADAS:
+        UI;
+        Business Layer (Business Entities/Domain Classes);
+        Data Layer (Entity Framework).
+
+    CRUD:
+        Create (Insert);
+        Read (Select);
+        Update (Update);
+        Delete (Delete).
+
+    Para instalar a ferramenta Entity Framework (só é necessária uma vez, por ser global, instalada na máquinas):
+        dotnet tool install --global dotnet-ef
+    
+    Para instalar o pacote do EF (funciona em escopo de projeto, necessário instalar em todos os projetos que for utilizar):
+        dotnet add package Microsoft.EntityFrameworkCore.Design
+        dotnet add package Microsoft.EntityFrameworkCore.SqlServer
+    
+    No Visual Studio, é possível instalá-los por meio da interface Nuget. Para verificar a instalação, verifique as dependências do arquivo .csproj
+
+    Iniciando...
+        Criar uma pasta para as entidades/modelos de domínio;
+        Definir as propriedades e tipos;
+        * Esta classe será o espelho de nossa tabela no banco de dados.
+
+        Criando Contexto: 
+            Criar nova pasta, Context/Data;
+            Criar arquivo Context (Ex.: ApplicationContext/AgendaContext);
+                Criar construtor de conexão com banco de dados (DbContextOptions);
+                Adicionar propriedade representando a entidade (DbSet: Tudo o que estiver como DbSet se torna tabela);
+
+            Cadastrar nossa conexão no arquivo de configuração(appsettings.json);
+            Incluir ConnectionStrings;
+            Passar ConnectionStrings na Program.cs;
+        
+        Comando para criação de tabela:
+            - Gerar uma migration...
+                dotnet ef migrations add nome_da_migration
+
+            - Aplicar migration...
+                dotnet ef database update
+                    (caso ocorra erro de ssl, incluir: TrustServerCertificate=True)
+
+        **Lembre-se de sempre importar as dependências!
+
+
+        
+
+    

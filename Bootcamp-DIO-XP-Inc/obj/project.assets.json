@@ -71,23 +71,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\jhoy.martins\\.nuget\\packages\\": {},
+    "C:\\Users\\WINDOWS\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jhoy.martins\\Documents\\GitHub\\Bootcamp-DIO-XP-Inc\\Bootcamp-DIO-XP-Inc\\Bootcamp-DIO-XP-Inc.csproj",
+      "projectUniqueName": "C:\\Users\\WINDOWS\\Documents\\Bootcamp-DIO-XP-Inc\\Bootcamp-DIO-XP-Inc\\Bootcamp-DIO-XP-Inc.csproj",
       "projectName": "Bootcamp-DIO-XP-Inc",
-      "projectPath": "C:\\Users\\jhoy.martins\\Documents\\GitHub\\Bootcamp-DIO-XP-Inc\\Bootcamp-DIO-XP-Inc\\Bootcamp-DIO-XP-Inc.csproj",
-      "packagesPath": "C:\\Users\\jhoy.martins\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jhoy.martins\\Documents\\GitHub\\Bootcamp-DIO-XP-Inc\\Bootcamp-DIO-XP-Inc\\obj\\",
+      "projectPath": "C:\\Users\\WINDOWS\\Documents\\Bootcamp-DIO-XP-Inc\\Bootcamp-DIO-XP-Inc\\Bootcamp-DIO-XP-Inc.csproj",
+      "packagesPath": "C:\\Users\\WINDOWS\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\WINDOWS\\Documents\\Bootcamp-DIO-XP-Inc\\Bootcamp-DIO-XP-Inc\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\jhoy.martins\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\WINDOWS\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -96,15 +96,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\jhoy.martins\\Documents\\GitHub\\Bootcamp-DIO-XP-Inc\\Bootcamp.Common\\Bootcamp.Common.csproj": {
-              "projectPath": "C:\\Users\\jhoy.martins\\Documents\\GitHub\\Bootcamp-DIO-XP-Inc\\Bootcamp.Common\\Bootcamp.Common.csproj"
+            "C:\\Users\\WINDOWS\\Documents\\Bootcamp-DIO-XP-Inc\\Bootcamp.Common\\Bootcamp.Common.csproj": {
+              "projectPath": "C:\\Users\\WINDOWS\\Documents\\Bootcamp-DIO-XP-Inc\\Bootcamp.Common\\Bootcamp.Common.csproj"
             }
           }
         }
