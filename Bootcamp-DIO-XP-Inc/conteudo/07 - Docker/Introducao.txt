@@ -1,0 +1,132 @@
+    Modelo Cliente-Servidor
+            O modelo cliente-servidor é uma estrutura de aplicação que distribui as tarefas e cargas de trabalho entre os fornecedores de um recurso ou serviço, designados 
+        como servidores, e os requerentes dos serviços, designados como clientes.
+    
+    Cloud
+            A cloud computing é o acesso sob demanda, via internet, a recursos de computação - aplicativos, servidores (físicos e virtuais), armazenamento de dados, 
+        ferramentas de desenvolvimento, recursos de rede e muito mais - hospedados em um data center remoto gerenciado por um provedor de serviços em cloud (Cloud Solution Provider). O CSP disponibiliza esses recursos por uma assinatura mensal ou por um valor cobrado conforme o uso.
+
+    Virtualização
+            A virtualização utiliza software para criar uma camada de abstração sobre o hardware do computador, permitindo que os recursos de hardware de um único computador
+        (processadores, memória, armazenamento, etc) sejam divididos em vários computadores virtuais.
+    
+    Microsserviços
+        Microsserviços são uma abordagem arquitetônica e organizacional do desenvolvimento de software na qual o software consiste em pequenos serviços indepentendes que se comunicam usando APIs bem definidas. Esses serviços pertencem a pequenas equipes autossuficientes.
+        
+        As arquiteturas de microsserviços facilitam a escalabilidade e agilizam o desenvolvimento de aplicativos, habilitando a inovação e acelerando o tempo de introdução de novos recursos no mercado. 
+        
+        Hoje, gigantes do mercado como Netflix e Spotify, divulgam a receita do sucesso ao transformar suas aplicações monolíticas em mais de 500 microsserviços.
+        
+        Quando quebramos uma aplicação monolítica em várias pequenas partes, conseguimos escalá-las de forma separada. Supondo que um serviço de autenticação seja chamado várias vezes durante a sessão de um usuário, com certeza o stress sobre ele é maior.
+
+    O que é um container?
+        Os contêineres são uma tecnologia usada para reunir um aplicativo e todos os seus arquivos necessários em um ambiente de tempo de execução. Como uma unidade, o contêiner pode ser facilmente movido e executado em qualquer sistema operacional, em qualquer contexto.
+    
+    O que é o Docker?
+        Com o Docker, é possível lidar com os contêineres como se fossem máquinas virtuais modulares e extremamente leves. Além disso, os contêineres oferecem maior flexibilidade para você criar, implantar, copiar e migrar um container de um ambiente para outro. Isso otimiza as aplicações em nuvem (privada e pública).
+    
+    Qual é a diferença entre virtualização e os containeres?
+        As duas tecnologias são distintas, porém, complementares. Veja uma maneira fácil de distingui-las:
+            - Com a virtualização, é possível executar sistemas operacionais (Windows ou Linux) simultaneamente em um único sistema de hardware.
+            - Os containers compartilham o mesmo kernel do sistema operacional e isolam os processos da aplicação do restante do sistema. Os containers Linux são extremamente portáteis, mas devem ser compatíveis com o sistema subjacente.
+    
+    Passos:
+        Baixar e Instalar Oracle Virtual Box;
+        Baixar iso Linux Server;
+        Criar máquina virtual Linux.
+
+        Baixar imagem Docker (docker pull hello-world)
+        Executar imagem Docker (docker run hello-world)
+
+        Para verificar containeres em execução: docker ps 
+        Para verificar os que foram executados e estão ou não em execução: docker ps -a 
+
+        Para determinar o tempo de execução do container: sleep 10(tempo em segundos)
+        Quando desejar parar um container que estiver em execução, abrir uma nova conexão remota e executar o comando: docker stop nome_do_container
+
+        Acionar modo interativo do container: -i
+        Adicionar pseudo terminal: -t 
+        Para acessar container em execuçao: docker run -it ubuntu
+
+    Velha sintaxe e nova sintaxe:
+        Velha:
+            - docker ps (listar container em execução);
+            - docker ps -a (containeres que não estão em execução);
+            - docker run nome_do_container (executar container);
+
+        Nova:
+            - docker container ls (listar containeres em execução);
+            - docker container run (executar container);
+        
+        Dúvidas:
+            - docker --help (old)
+            - docker container --help (new)
+        
+    Executando aplicações no container:
+        docker run --help (para chamar o help do run);
+        docker run -d (detach - continuara em execução);
+
+        Exemplo ubuntu:
+            docker run -dti ubuntu
+            docker exec -it id(pode ser algumas iniciais) /bin/bash (para executar o bash no container)
+
+        Atualizar repositórios:
+            apt update
+            apt upgrade -y
+        
+        Instalar nano:
+            apt -y install nano
+
+            Exemplo de uso:
+                nano arquivo.txt
+            
+            Para sair: ctrl + x
+        
+        Para desligar o container:
+            docker stop id(iniciais)
+        
+
+        Excluindo e nomeando containeres:
+            docker rm id(iniciais) (para excluir containeres que podem consumir espaço)
+            docker images (verificar imagens)
+            docker rmi nome_da_imagem (excluir imagem da maquina)
+        
+        Nomeando:
+            docker run -dti --name <nome_do_container> <nome_da_imagem>
+
+        Quando executar um comando de uma imagem não existente, será baixada:
+            docker run -dti centos
+    
+    Copiar arquivos para container:
+        docker cp <arquivo> <container_destino>:/<diretorio_destino>
+        docker cp <container_origem>:/<diretorio_origem>/<arquivo> <container_destino>:/<diretorio_destino>
+    
+    Instalar compactador de arquivos (zip):
+        apt install -y zip
+
+    Compactar arquivo:
+        zip <nome_do_zip> *.txt (para compactar todos os arquivos .txt)
+    
+        Ou: unzip <nome_do_zip> (para descompactar)
+    
+    TAGs:
+        As tags servem para definir especificações de cada imagem, como versão.
+        ex.: docker pull debian:9
+        para executar: docker run -dti debian:9
+
+    MySql:
+        docker pull mysql  
+        docker run -e MYSQL_ROOT_PASSWORD=Senha123 --name mysql-A -d -p 3306:3306 mysql (verificar tags em docker run --help)
+        docker exec -it mysql-A(container) bash
+        ls (para verificar)
+        mysql -u root -p --protocol=tcp
+
+        No MySql:
+            CREATE  DATABASE aula;
+        
+        MySql Client:
+            apt -y install mysql-client
+    
+    Para verificar informações do container:
+        docker inspect <nome_do_container>
+    
